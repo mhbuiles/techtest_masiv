@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+.comic {
+  background-color: #E9B000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.comic h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #E24E42;
+  font-size: 60px;
+  margin-top: 50px 0px 0px 0px;
+  text-shadow: 0px 0px 6px #333;
+}
+.comic h3 {
+  font-family: "Quicksand", sans-serif;
+  color: #E24E42;
+  font-size: 30px;
+  margin: 30px;
+}
+.comic p {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin: 0px;
+}
+.comic section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #008F95;
+  border-radius: 20px;
+  width: 400px;
+  height: 80px;
+  margin: 50px;
+}
+.comic button {
+  background-color: #E24E42;
+  border: none;
+  padding: 8px 8px;
+  margin: 0 0 50px 0;
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+.comic div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  background-color: #E9B000;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=comic.css.map */

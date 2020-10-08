@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+$fontp: 'Quicksand', sans-serif;
+$fonth: 'Parisienne', cursive;
+$color1: #E24E42;
+$color2: #E9B000;
+$color3: black;
+$color4: #008F95;
+$color5: #fff;
+$fonts1: 60px;
+$fonts2: 30px;
+$fonts3: 20px;
+$buttonwidth: 400px;
+$buttonheight: 50px;
+
+.comic {
+  h1 {
+    font-family: $fontp;
+    color: $color1;
+    font-size: $fonts1;
+    margin-top: 50px 0px 0px 0px;
+    text-shadow: 0px 0px 6px #333;
+  }
+
+  h3 {
+    font-family: $fontp;
+    color: $color1;
+    font-size: $fonts2;
+    margin: 30px;
+  }
+
+  p {
+    font-family: $fontp;
+    color: $color5;
+    font-size: $fonts3;
+    margin: 0px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color4;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    margin: 50px;
+  }
+
+  button {
+    background-color: $color1;
+    border: none;
+    padding: 8px 8px;
+    margin: 0 0 50px 0;
+    width: $buttonwidth;
+    height: $buttonheight;
+    border-radius: 15px;
+    font-family: $fontp;
+    cursor: pointer;
+    color: $color5;
+    font-size: $fonts3;
+  }
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  background-color: $color2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow-y: scroll;
+
+}
+
+.rating {
+  background-color: $color2;
+  border-radius: 5px;
+}

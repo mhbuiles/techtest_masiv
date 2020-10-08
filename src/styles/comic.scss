@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 $fontp: 'Quicksand', sans-serif;
-$fonth: 'Parisienne', cursive;
 $color1: #E24E42;
 $color2: #E9B000;
 $color3: black;
@@ -19,7 +18,6 @@ $buttonheight: 50px;
     color: $color1;
     font-size: $fonts1;
     margin-top: 50px 0px 0px 0px;
-    text-shadow: 0px 0px 6px #333;
   }
 
   h3 {
@@ -61,7 +59,6 @@ $buttonheight: 50px;
     font-size: $fonts3;
   }
 
-
   div {
     display: flex;
     flex-direction: column;
@@ -75,9 +72,4 @@ $buttonheight: 50px;
   height: 100vh;
   overflow-y: scroll;
 
-}
-
-.rating {
-  background-color: $color2;
-  border-radius: 5px;
 }

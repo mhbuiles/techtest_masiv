@@ -11,9 +11,9 @@ La aplicación abrirá en su navegador en el puerto 3000 de su computador, url: 
 
 Al abrir el sitio, automáticamente se mostrará un cómic aleatorio, con su título. Debajo del cómic se encuentra información relacionada con el mismo, como es el número del cómic y la fecha de publicación del mismo.
 
-Una vez se lea esta información, el usuario tiene la opción de calificar el cómic a través de un sistema de valoración por medio de estrellas, el cual se encuentra después de toda la información del cómic. Este sistema consta de 5 estrellas, donde la 5ta estrella completa es la máxima valoración, el sistema permite valorar de manera muy precisa, es decir se puede seleccionar cada estrella completa, o la mitad de esta, las calificaciones posibles son entonces: 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5 y 5.0.
-A medida que el usuario arrastra el cursor sobre las estrellas, estas se van rellenando indicando la calificación que daría el usario, una vez este decida y haga click, la calificación quedará marcada en la vista incluso si retira el cursor de la estrella.
-El cursor cambia a pointer (dedo) cuando el usuario lo sitúa sobre las estrellas.
+Una vez se lea esta información, el usuario tiene la opción de calificar el cómic a través de un sistema de valoración por medio de corazones, el cual se encuentra después de toda la información del cómic. Este sistema consta de 5 corazones, donde el 5to corazón completo es la máxima valoración, el sistema permite valorar de manera muy precisa, es decir se puede seleccionar cada corazón completo, o la mitad de este, las calificaciones posibles son entonces: 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5 y 5.0.
+A medida que el usuario arrastra el cursor sobre los corazones, estos se van rellenando indicando la calificación que daría el usuario, una vez este decida y haga click, la calificación quedará marcada en la vista incluso si retira el cursor del corazón.
+El cursor cambia a pointer (dedo) cuando el usuario lo sitúa sobre los corazones.
 
 Cada vez que se accede a la página, o se refresca, se obtendrá un cómic diferente de manera aleatoria.
 
